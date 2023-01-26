@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="css/styles.css">
-
-</head>
-
-<body>
-    
-
-
-<div class="container bg">
-    <div class="navBar">
-        <div class="logo">
-            <a href="#">
-                <i class="fas fa-suitcase-rolling"></i>
-            </a>
-        </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Travel</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-
-    <div class="content">
-        <div class="phuket" style="width:50%;">
-            <div class="tnx">
-                <h2><i class="fas fa-map-marker-alt"></i> Thailand</h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body >
+        
+        
+        
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div>
+                
+                    <!-- Portfolio Item 1-->
+                    <div>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex  justify-content-center">
+                                <div class="portfolio-item-caption-content text-center"></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
-            <div class="txt">
-                <h1>PHU</h1>
-                <h1>KET</h1>
-            </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptatem iure sunt praesentium
-                repellat, quaerat, non at quam, saepe fugit labore consequuntur sequi repudiandae ab adipisci quae
-                distinctio dolorem ducimus?</p>
-        </div>
-        <div class="card" style="width:50%;">
-            <a href="https://www.google.com/" target="_blank">
-                <div class="box1">
-                    <h2>Bleach</h2>
-                </div>
-            </a>
-            <a href="https://www.google.com/" target="_blank">
-                <div class="box2">
-                    <h2>Island</h2>
-                </div>
-            </a>
-            <a href="https://www.google.com/" target="_blank">
-                <div class="box3">
-                    <h2>Mountain</h2>
-                </div>
-            </a>
-            <a href="https://www.google.com/" target="_blank">
-                <div class="box4">
-                    <h2>Scenery</h2>
-                </div>
-            </a>
-            <!--       <div class="box2">
-        <h2>Island</h2>
-      </div>
-      <div class="box3">
-        <h2>Mountain</h2>
-      </div>
-      <div class="box4">
-        <h2>Scenery</h2>
-      </div> -->
-        </div>
-    </div>
+        </section>
 
-</div>
-</body>
+
+
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" >
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
